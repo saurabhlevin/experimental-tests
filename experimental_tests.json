@@ -7,7 +7,7 @@
       "brand": "Akvo Caddisfly",
       "calibrate": true,
       "ranges": "0,0.5,1,1.5,2",
-      "dilutions": [1,2,5],
+      "dilutions": "0,50,20",
       "monthsValid": 12,
       "hasImage": true,
       "results": [
@@ -138,7 +138,7 @@
       "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,50,100,150,200,250",
-      "dilutions": [1,2,5],
+      "dilutions": "0,50,20",
       "monthsValid": 24,
       "hasImage": true,
       "results": [
@@ -157,7 +157,7 @@
       "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,10,25,50,75,100",
-      "dilutions": [1,2,10],
+      "dilutions": "0,50,10",
       "monthsValid": 24,
       "hasImage": true,
       "results": [
@@ -176,7 +176,7 @@
       "brand": "Caddisfly",
       "calibrate": true,
       "ranges": "0,0.3,0.6,0.9,1.2,1.5,2.0",
-      "dilutions": [1,2,5],
+      "dilutions": "0,50,20",
       "monthsValid": 24,
       "hasImage": true,
       "results": [
@@ -195,7 +195,7 @@
       "shortCode": "totfe",
       "calibrate": "true",
       "ranges": "0,0.5,1.0,1.5,2.0",
-      "dilutions": [1,2,5],
+      "dilutions": "0,50,20",
       "monthsValid": "6",
       "results": [
         {
@@ -303,7 +303,7 @@
       "brand": "Akvo Caddisfly",
       "calibrate": true,
       "ranges": "0,3,6,9,12,15",
-      "dilutions": [1,2,5],
+      "dilutions": "0,50,20",
       "monthsValid": 12,
       "hasImage": true,
       "results": [
