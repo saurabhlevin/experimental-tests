@@ -5,9 +5,8 @@
       "subtype": "cuvette",
       "cameraAbove": true,
       "uuid": "4bbf3c2b-2b2a-4b52-95a0-f04b5c8089e9",
-      "brand": "Akvo Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
-      "ranges": "0,0.5,1,1.5,2",
       "dilutions": [1,2,5],
       "monthsValid": 12,
       "hasImage": true,
@@ -15,7 +14,24 @@
         {
           "name": "Fluoride",
           "id": 1,
-          "unit": "ppm"
+          "unit": "ppm",
+          "colors": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0.5
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 1.5
+            },
+            {
+              "value": 2
+            }
+          ]
         }
       ]
     },
@@ -23,15 +39,38 @@
       "name": "Arsenic - 1",
       "subtype": "cuvette",
       "uuid": "0ca9a961-213e-48dd-a7f1-d37d05157047",
+      "brand": "FFEM",
       "calibrate": "true",
-      "ranges": "0,25,50,75,100,200,300",
       "monthsValid": "12",
       "results": [
         {
           "id": 1,
           "name": "Arsenic",
           "unit": "ppb",
-          "timeDelay": 1
+          "timeDelay": 1,
+          "colors": [
+            {
+              "value": 0
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 50
+            },
+            {
+              "value": 75
+            },
+            {
+              "value": 100
+            },
+            {
+              "value": 200
+            },
+            {
+              "value": 300
+            }
+          ]
         }
       ]
     },
@@ -39,15 +78,41 @@
       "name": "Arsenic - 2",
       "subtype": "cuvette",
       "uuid": "9fe91d2f-9ab1-4215-b7dd-98b6ab890a99",
+      "brand": "FFEM",
       "calibrate": "true",
-      "ranges": "0,25,50,75,100,250,500,1000",
       "monthsValid": "12",
       "results": [
         {
           "id": 1,
           "name": "Arsenic",
           "unit": "ppb",
-          "timeDelay": 1
+          "timeDelay": 1,
+          "colors": [
+            {
+              "value": 0
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 50
+            },
+            {
+              "value": 75
+            },
+            {
+              "value": 100
+            },
+            {
+              "value": 250
+            },
+            {
+              "value": 500
+            },
+            {
+              "value": 1000
+            }
+          ]          
         }
       ]
     },
@@ -55,6 +120,7 @@
       "name": "Arsenic - 3",
       "subtype": "cuvette",
       "uuid": "2b774723-5a15-49b4-a25f-5c9c034a3cc8",
+      "brand": "FFEM",
       "calibrate": "true",
       "ranges": "0,0.1,0.2,0.3,0.4,0.5",
       "monthsValid": "12",
@@ -71,6 +137,7 @@
       "name": "Arsenic - 4",
       "subtype": "cuvette",
       "uuid": "5c4837d4-bd21-4d1b-808b-6b06bc22507f",
+      "brand": "FFEM",
       "calibrate": "true",
       "ranges": "0,0.05,0.1,0.2,0.3,0.5",
       "monthsValid": "12",
@@ -87,7 +154,7 @@
       "name": "Water - Free Chlorine - 2",
       "subtype": "cuvette",
       "uuid": "57a1d2fe-e578-4d74-a8a7-e2a576c4503c",
-      "brand": "Akvo Caddisfly",
+      "brand": "FFEM",
       "shortCode": "chlor",
       "calibrate": true,
       "ranges": "0,0.5,1.0,1.5,2.0,2.5,3.0",
@@ -105,6 +172,7 @@
       "name": "Chromium",
       "subtype": "cuvette",
       "uuid": "4970bfed-d289-429c-b4c0-5645ec6fd5af",
+      "brand": "FFEM",
       "shortCode": "chro2",
       "calibrate": true,
       "ranges": " 0,0.025,0.050,0.075,0.100,0.5,1.0",
@@ -122,6 +190,7 @@
       "name": "Coliforms",
       "subtype": "coliform",
       "uuid": "df3d1009-2112-4d95-a6f9-fdc4b5633ec9",
+      "brand": "FFEM",
       "shortCode": "colif",
       "calibrate": false,
       "results": [
@@ -136,7 +205,7 @@
       "name": "Water - Nitrate",
       "subtype": "cuvette",
       "uuid": "c08123f7-eaa6-44d0-9113-1c16bf4b183b",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,50,100,150,200,250",
       "dilutions": [1,2,5],
@@ -155,7 +224,7 @@
       "name": "Water - Nitrate - 2",
       "subtype": "cuvette",
       "uuid": "fcf39bd6-0e37-4523-9cba-19870d2192f8",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,10,25,50,75,100",
       "dilutions": [1,2,10],
@@ -174,7 +243,7 @@
       "name": "Water - Phosphate - 2",
       "subtype": "cuvette",
       "uuid": "6fbe9952-7199-4c9d-8664-977236176cc9",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,0.3,0.6,0.9,1.2,1.5,2.0",
       "dilutions": [1,2,5],
@@ -193,6 +262,7 @@
       "name": "Total Iron",
       "subtype": "cuvette",
       "uuid": "5a7cf06e-5e73-4044-9aa5-0206cc627c82",
+      "brand": "FFEM",
       "shortCode": "totfe",
       "calibrate": "true",
       "ranges": "0,0.5,1.0,1.5,2.0",
@@ -211,6 +281,7 @@
       "name": "pH",
       "subtype": "cuvette",
       "uuid": "4d3a7d6d-2f11-49de-9f7f-9e21e840df93",
+      "brand": "FFEM",
       "shortCode": "phydr",
       "calibrate": true,
       "ranges": "4,5,6,7,8,9,10",
@@ -229,7 +300,7 @@
       "name": "Soil - pH",
       "subtype": "cuvette",
       "uuid": "25bcfc97-ee9a-4f2f-bf5e-e3eb237b5e23",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "4,5,6,7,8,9,10",
       "monthsValid": 12,
@@ -247,7 +318,7 @@
       "name": "Soil - Phosphorous",
       "subtype": "cuvette",
       "uuid": "957f0c64-e658-4a04-b4e0-aa72f5692809",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,5,10,15,20",
       "monthsValid": 12,
@@ -265,7 +336,7 @@
       "name": "Soil - Phosphorous - 2",
       "subtype": "cuvette",
       "uuid": "9abbb577-f9b7-451c-9cc9-5bf06681b31f",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,1,2,3,4,5",
       "monthsValid": 12,
@@ -283,7 +354,7 @@
       "name": "Soil - Phosphorous - 3",
       "subtype": "cuvette",
       "uuid": "c47199fb-9f44-49d8-945b-548a7f76209e",
-      "brand": "Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,2,4,6,8,10",
       "monthsValid": 12,
@@ -301,7 +372,7 @@
       "name": "Phosphate",
       "subtype": "cuvette",
       "uuid": "f0262ede-5e91-4d65-9e0b-f51cae947294",
-      "brand": "Akvo Caddisfly",
+      "brand": "FFEM",
       "calibrate": true,
       "ranges": "0,3,6,9,12,15",
       "dilutions": [1,2,5],
@@ -320,6 +391,7 @@
       "name": "Turbidity",
       "subtype": "cuvette",
       "uuid": "a81f5663-b512-4dad-a4c3-651caf7f567a",
+      "brand": "FFEM",
       "calibrate": "true",
       "ranges": "0,5,10,15,20",
       "monthsValid": 6,
@@ -329,6 +401,142 @@
           "id": 1,
           "name": "Turbidity",
           "unit": "NTU"
+        }
+      ]
+    },
+    {
+      "name": "pH - Fix",
+      "subtype": "striptest",
+      "uuid": "7ea6b71d-3690-4584-b2da-fd81443e9bce",
+      "brand": "MACHEREY-NAGEL 92120",
+      "calibration": "Reagecon Buffer solutions Exp. Date – 28-06-2019",
+      "groupingType": "GROUP",
+      "length": 84,
+      "height": 5.2,
+      "hasImage": true,
+      "results": [
+        {
+          "id": 1,
+          "name": "pH",
+          "unit": "",
+          "patchPos": 4.7,
+          "patchWidth": 6.2,
+          "timeDelay": 0,
+          "colors":[
+            {
+              "value": 5.0,
+              "lab":[77.786,1.910,86.700]
+            },
+            {
+              "value": 6.0,
+              "lab":[77.159,2.855,86.325]
+            },
+            {
+              "value": 7.0,
+              "lab":[73.227,10.173,80.364]
+            },
+            {
+              "value": 8.0,
+              "lab":[61.245,31.317,60.945]
+            },
+            {
+              "value": 9.0,
+              "lab":[44.861,50.925,29.148]
+            },
+            {
+              "value": 10.0,
+              "lab":[35.700,55.926,5.122]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "pH",
+          "unit": "",
+          "patchPos": 12.2,
+          "patchWidth": 6.2,
+          "timeDelay": 0,
+          "colors":[
+            {
+              "value": 5.0,
+              "lab":[70.070,11.156,48.408]
+            },
+            {
+              "value": 6.0,
+              "lab":[62.369,2.046,32.578]
+            },
+            {
+              "value": 7.0,
+              "lab":[53.098,-5.743,10.030]
+            },
+            {
+              "value": 8.0,
+              "lab":[49.510,-6.896,-2.385]
+            },
+            {
+              "value": 9.0,
+              "lab":[46.982,-6.610,-8.410]
+            },
+            {
+              "value": 10.0,
+              "lab":[46.029,-6.291,-10.782]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "pH",
+          "unit": "",
+          "patchPos": 19.2,
+          "patchWidth": 6.2,
+          "timeDelay": 0,
+          "colors":[
+            {
+              "value": 5.0,
+              "lab":[69.421,20.742,72.957]
+            },
+            {
+              "value": 6.0,
+              "lab":[55.661,47.165,49.217]
+            },
+            {
+              "value": 7.0,
+              "lab":[47.426,62.062,31.269]
+            },
+            {
+              "value": 8.0,
+              "lab":[45.245,64.262,26.391]
+            },
+            {
+              "value": 9.0,
+              "lab":[44.214,63.428,24.537]
+            },
+            {
+              "value": 10.0,
+              "lab":[43.513,63.366,23.948]
+            }
+          ]
+        }
+      ],
+      "instructions": [
+        {
+          "text": "collect_water_sample",
+          "png": "instruction_collect_sample"
+        },
+        {
+          "text": "dip_strip_in_water_2_seconds",
+          "png": "instruction_dip"
+        },
+        {
+          "text": "shake_excess_water"
+        },
+        {
+          "text": "place_strip_in_black_area",
+          "png": "instruction_place_strip"
+        },
+        {
+          "text": "press_start_button",
+          "png": ""
         }
       ]
     }
